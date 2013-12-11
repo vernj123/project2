@@ -6,7 +6,7 @@ development:
   database: project2_development
   pool: 5
   username: vernon
-  password: vernj123
+  password: 
 ...
 
 # Warning: The database defined as "test" will be erased and
@@ -18,7 +18,7 @@ test:
   database: project2_development
   pool: 5
   username: vernon
-  password: vernj123
+  password: 
 
 production:
   adapter: postgresql
@@ -26,4 +26,4 @@ production:
   database: project2_development
   pool: 5
   username: vernon
-  password: vernj123
+  password: 
