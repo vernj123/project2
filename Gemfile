@@ -3,10 +3,7 @@ ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
-
-group :development do
-  gem 'sqlite3', '1.3.8'
-end
+gem 'pg', '0.17.0'
 
 
 gem 'sass-rails', '4.0.1'
@@ -21,7 +18,6 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '0.17.0'
   gem 'rails_12factor', '0.0.2'
 end
 
